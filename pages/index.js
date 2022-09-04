@@ -1,10 +1,25 @@
 import Head from 'next/head';
 import MobileContainer from './../components/mobile/MobileContainer';
 import classes from '../styles/Home.module.css';
+import { useEffect, useState } from 'react';
+import useWindowSize from '../components/desktop/customHooks/useWindowSize';
+import DesktopContainer from '../components/desktop/DesktopContainer';
 
 export default function Home() {
+
+  const [windowWidth, setWindowWidth] = useState();
+  const windowSize = useWindowSize();
+
+  useEffect(() => {
+    if (windowSize === undefined) {
+      setWindowWidth(window.innerWidth);
+    } else {
+      setWindowWidth(windowSize);
+    }
+  });
+
   return (
-    <div>
+    <div className={classes.outerDiv}>
       <Head>
         <title>Welcome to Lance Gee Page</title>
         <meta
@@ -13,7 +28,9 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <MobileContainer />
+      {windowWidth < 560 ? 
+        <MobileContainer /> : <DesktopContainer/>
+      }
     </div>
   );
 }

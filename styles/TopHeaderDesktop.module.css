@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+
+.outerDiv {
+  position: relative;
+  width: 100%;
+  background: #1e1e28;
+  padding-top: 25px;
+}
+
+.innerDiv {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+}
+
+.innerDiv h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 900;
+  color: white;
+}
+
+.innerDiv h2 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  color: white;
+  padding-top: 10px;
+}
+
+.innerDiv p {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  padding-top: 10px;
+}
+
+.innerDiv p span {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  font-weight: 700;
+  color: #ffc107;
+  padding-top: 10px;
+}
+
+.innerDiv button {
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  margin-top: 25px;
+  padding: 10px;
+  background-color: #ffc107;
+}

@@ -1,1 +1,5 @@
-
+.outerDiv {
+    background: #1E1E28;
+    scrollbar-width: none;
+    overflow: hidden;
+}
