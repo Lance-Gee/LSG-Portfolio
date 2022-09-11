@@ -8,6 +8,7 @@ import FeatureWork from '../desktop/FeatureWork'
 import CurrentProject from '../desktop/CurrentProject'
 import MyProjects from '../desktop/MyProjects'
 import Footer from '../desktop/Footer'
+import Blog from '../desktop/Blog'
 
 export default function DesktopContainer() {
   return (
@@ -22,6 +23,7 @@ export default function DesktopContainer() {
             <AboutMe />
             <FeatureWork />
             <CurrentProject />
+            <Blog />
             <MyProjects />
             <Footer />
         </div>

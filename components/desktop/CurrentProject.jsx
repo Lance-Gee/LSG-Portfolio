@@ -10,7 +10,7 @@ export default function CurrentProject() {
         <h2 className={classes.title}>Current Project</h2>
         <div className={classes.card}>
           <div className='row'>
-            <div className='col'>
+            <div className={`col ${classes.images}`}>
           <Image
             src={OffTheWok}
             alt="OffTheWok"
@@ -19,7 +19,7 @@ export default function CurrentProject() {
             height={230}
           />
             </div>
-            <div className='col'>
+            <div className={`col ${classes.sectionDescription}`}>
           <h3 className={classes.subTitle}>Off The Wok</h3>
           <p className={classes.sectionMe}>
             I&apos;m currently working on revamping a clients website with

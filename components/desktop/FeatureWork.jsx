@@ -20,14 +20,14 @@ export default function FeatureWork() {
           />
           </div>
           <div className='col'>
-          <h3 className={classes.subTitle}>home Hospital</h3>
+          <h3 className={classes.subTitle}>Home Hospital</h3>
           <p className={classes.sectionMe}>
             As a fourth semester student we had to do a capstone project, that
             involved team work to build. I am very proud to say that we were
             able to complete the project milestones within the given time frame.
             I led the frontend team that comprised of 4 class mates including
             myself. We were able to pick up React as our frontend framework,
-            without any prior experience. The application was built using React,
+            without any prior experience. <br /><br />The application was built using React,
             Bootstrap, Node, and MongoDB. The Application is a hospital waiting
             app that allows individuals to register and wait in a queue without
             having to present themselves at the hospital. Once it come&#39;s

@@ -19,4 +19,11 @@
     padding-top: 15px;
     padding-bottom: 10px;
   }
+
+  .images {
+    margin-left: -65px;
+  }
   
+  .sectionDescription {
+    margin-left: 55px;
+  }
