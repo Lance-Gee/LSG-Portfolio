@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-import classes from '../../styles/MyProjects.module.css';
+import classes from '../../styles/MyProjectsDesktop.module.css';
 
 export default function MyProjects() {
   const [projectList, setProjectList] = useState();
@@ -21,6 +21,7 @@ export default function MyProjects() {
 
   return (
     <div className={classes.projContainer}>
+      <h2 className={classes.title}>My Projects</h2>
       {projectList === undefined || projectList.length < 1 ? (
         <div className="spinner-border text-warning" role="status">
           <span className="visually-hidden">Loading...</span>
