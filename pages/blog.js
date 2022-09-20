@@ -55,26 +55,32 @@ export default function blog() {
           </div>
         </a>
       </div>
-      <div className={classes.card}>
-        <div>
-          <Image
-            src={blog2}
-            alt="blog2"
-            layout="intrinsic"
-            width={411}
-            height={271}
-          />
+      <a
+        href="https://lance-gee.github.io/myFirstBlog/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className={classes.card}>
+          <div>
+            <Image
+              src={blog2}
+              alt="blog2"
+              layout="intrinsic"
+              width={411}
+              height={271}
+            />
+          </div>
+          <div className={classes.cardInner}>
+            <h2>Tutorial building a React app</h2>
+            <p>
+              In this blog i go through a detailed tutorial on how to start a
+              React app and all the little setup configurations you need to do
+              before starting to code. Also demonstrate the use of some of the
+              React hooks with in the application.
+            </p>
+          </div>
         </div>
-        <div className={classes.cardInner}>
-          <h2>Tutorial building a React app</h2>
-          <p>
-            In this blog i go through a detailed tutorial on how to start a
-            React app and all the little setup configurations you need to do
-            before starting to code. Also demonstrate the use of some of the
-            React hooks with in the application.
-          </p>
-        </div>
-      </div>
+      </a>
       <div className={classes.footer}>
         <Footer />
       </div>
