@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import NavBar from '../components/mobile/MobileNavBar';
-import MyProjects from '../components/mobile/myProjects';
+import MyProjects from '../components/mobile/MyProjects';
 import classes from '../styles/Projects.module.css';
 import headerPic from '../public/images/headerImage3.png';
 import Footer from './../components/mobile/Footer';
@@ -28,8 +28,8 @@ export default function project() {
         </div>
       </div>
       <h5 className={classes.note}>
-        <span>Note:</span> Some sites are only designed for desktop use and are not
-        responsive.
+        <span>Note:</span> Some sites are only designed for desktop use and are
+        not responsive.
       </h5>
       <MyProjects />
       <Footer />

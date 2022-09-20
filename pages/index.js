@@ -6,7 +6,6 @@ import useWindowSize from '../components/desktop/customHooks/useWindowSize';
 import DesktopContainer from '../components/desktop/DesktopContainer';
 
 export default function Home() {
-
   const [windowWidth, setWindowWidth] = useState();
   const windowSize = useWindowSize();
 
@@ -16,7 +15,7 @@ export default function Home() {
     } else {
       setWindowWidth(windowSize);
     }
-  });
+  }, [useWindowSize]);
 
   return (
     <div className={classes.outerDiv}>
@@ -28,9 +27,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {windowWidth < 560 ? 
-        <MobileContainer /> : <DesktopContainer/>
-      }
+      {windowWidth < 560 ? <MobileContainer /> : <DesktopContainer />}
     </div>
   );
 }
