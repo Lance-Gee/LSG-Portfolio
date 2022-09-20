@@ -1,28 +1,28 @@
 .card {
-    background: #2b2b36;
-    margin-top: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
-  .cardInner {
-    color: #ffc107;
-    padding: 20px;
-  }
-  
-  .cardInner h2 {
-    color: white;
-    padding-bottom: 15px;
-  }
-  
-  .projContainer {
-    padding-bottom: 55px;
-  }
- 
-  .title {
-    color: white;
-    padding-bottom: 15px;
-    padding-top: 10px;
-    margin-top: 15px;
-    margin-left: 10px;
-  }
+  background: #2b2b36;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cardInner {
+  color: #ffc107;
+  padding: 20px;
+}
+
+.cardInner h5 {
+  color: white;
+  padding-bottom: 15px;
+}
+
+.projContainer {
+  padding-bottom: 55px;
+}
+
+.title {
+  color: white;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+}

@@ -83,13 +83,13 @@
   padding-top: 25px;
   padding-bottom: 25px;
 }
-.profileImage {
+/* .profileImage {
   background-image: url('../public/images/MaskBackground.png');
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
   justify-content: center;
-}
+} */
 
 .percentage {
   position: absolute;

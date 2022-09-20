@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import classes from '../../styles/ProfileSliderDesktop.module.css';
-import profilePic from '../../public/images/LanceProfilePic.png';
+import profilePic from '../../public/images/LanceProfilePic_v2.png';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 

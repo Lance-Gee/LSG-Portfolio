@@ -16,13 +16,9 @@
   padding: 20px;
 }
 
-.cardInner h2 {
+.cardInner h4 {
   color: #ffc107;
   padding-bottom: 15px;
-}
-
-.footer {
-  margin-top: 55px;
 }
 
 .innerDiv {
@@ -78,9 +74,9 @@
 }
 
 .title {
-    color: white;
-    padding-bottom: 15px;
-    padding-top: 10px;
-    margin-top: 15px;
-    margin-left: 10px;
-  }
+  color: white;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+}

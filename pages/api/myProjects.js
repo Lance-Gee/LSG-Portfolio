@@ -2,27 +2,27 @@ export default function handler(req, res) {
   res.status(200).json([
     {
       id: 1,
-      image: '/ProjectImage1.png',
-      title: 'Author Biography',
-      link: 'https://lance-gee.github.io/ArchitectReactPage/',
+      image: '/ProjectImage8.png',
+      title: 'Michelle Gee Realty',
+      link: 'https://michellegee.ca',
     },
     {
       id: 2,
-      image: '/ProjectImage2.png',
-      title: 'Currency Converter',
-      link: 'https://lance-gee.github.io/Simple-React-Calculator/',
+      image: '/ProjectImage9.png',
+      title: 'Go Takeout',
+      link: 'https://gotakeout.ca',
     },
     {
       id: 3,
-      image: '/ProjectImage3.png',
-      title: 'Custom Planters',
-      link: 'https://sait-projects.github.io/custom-planters/',
-    },
-    {
-      id: 4,
       image: '/ProjectImage4.png',
       title: 'Dodgy Brakes Car Rental',
       link: 'https://sait-projects.github.io/car-rental/',
+    },
+    {
+      id: 4,
+      image: '/ProjectImage3.png',
+      title: 'Custom Planters',
+      link: 'https://sait-projects.github.io/custom-planters/',
     },
     {
       id: 5,
@@ -44,15 +44,15 @@ export default function handler(req, res) {
     },
     {
       id: 8,
-      image: '/ProjectImage8.png',
-      title: 'Michelle Gee Realty',
-      link: 'https://michellegee.ca',
+      image: '/ProjectImage1.png',
+      title: 'Author Biography',
+      link: 'https://lance-gee.github.io/ArchitectReactPage/',
     },
     {
       id: 9,
-      image: '/ProjectImage9.png',
-      title: 'Go Takeout',
-      link: 'https://gotakeout.ca',
+      image: '/ProjectImage2.png',
+      title: 'Currency Converter',
+      link: 'https://lance-gee.github.io/Simple-React-Calculator/',
     },
     {
       id: 10,
