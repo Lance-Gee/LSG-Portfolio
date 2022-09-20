@@ -27,27 +27,33 @@ export default function blog() {
             &gt;
           </p>
         </div>
-        <div className={classes.card}>
-          <div>
-            <Image
-              src={blog1}
-              alt="blog1"
-              layout="intrinsic"
-              width={411}
-              height={271}
-            />
+        <a
+          href="https://lance-gee.github.io/myFirstBlog/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className={classes.card}>
+            <div>
+              <Image
+                src={blog1}
+                alt="blog1"
+                layout="intrinsic"
+                width={411}
+                height={271}
+              />
+            </div>
+            <div className={classes.cardInner}>
+              <h2>My First Blog Learning React</h2>
+              <p>
+                This is one of my first blogs that I wrote talking about the
+                basics of React and my experience learning React. It talks about
+                background knowledge that you should have before starting React
+                projects. I also dive into React hooks and the use cases for
+                most of the hooks.
+              </p>
+            </div>
           </div>
-          <div className={classes.cardInner}>
-            <h2>My First Blog Learning React</h2>
-            <p>
-              This is one of my first blogs that I wrote talking about the
-              basics of React and my experience learning React. It talks about
-              background knowledge that you should have before starting React
-              projects. I also dive into React hooks and the use cases for most
-              of the hooks.
-            </p>
-          </div>
-        </div>
+        </a>
       </div>
       <div className={classes.card}>
         <div>
