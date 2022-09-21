@@ -40,7 +40,7 @@ export default function handler(req, res) {
       id: 7,
       image: '/ProjectImage7.png',
       title: 'Travel World Site',
-      link: 'https://sait-projects.github.io/travelSite /',
+      link: 'https://sait-projects.github.io/travelSite/',
     },
     {
       id: 8,
